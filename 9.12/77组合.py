@@ -7,7 +7,7 @@ class Solution:
         def backtrack(start):
             if len(track) == k:
                 res.append(track.copy())
-                return 
+                return
             for i in range(start, n+1):
                 track.append(i)
                 backtrack(i+1)

@@ -15,4 +15,3 @@ class Solution:
                 res += rh - height[r]
                 r -= 1
         return res
-
