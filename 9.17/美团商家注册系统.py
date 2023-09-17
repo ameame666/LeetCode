@@ -25,6 +25,8 @@ red ok
 ranko mt 1
 red ok 0
 """
+
+# 注意要把分店地址保存下来来防止重复
 n = int(input())
 businesses = {}
 
