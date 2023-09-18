@@ -40,9 +40,9 @@ for c in s_valdict:
                 if t[index_c] == s[index_s]:
                     count += 2
                     flag = 1
-                    break  # 跳出内部循环
+                    break
             if flag == 1:
-                break  # 跳出中间循环
+                break
     if flag == 1:
         break 
 if flag == 0:
